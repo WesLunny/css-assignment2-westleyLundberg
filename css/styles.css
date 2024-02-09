@@ -26,7 +26,7 @@ h1{
     text-align: center;
 }
 
-.verse,#turn,#intro{
+.verse,.turn,#intro{
     font-family: TimeburnerBold,sans-serif;
     
 }
@@ -51,11 +51,11 @@ em{
 }
 
 
-#turn,#intro{
+.turn,#intro{
     word-spacing: 2em;
     font-weight: 900;
 }
-#turn{
+.turn{
     color:  rgb(1, 102, 1);
 }
 
