@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/*custom font import*/
+@font-face{
+    font-family: genesisDukeTitleFontSolid;
+    src: url(../customFonts/DUCHESS_.TTF) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: TimeburnerBold;
+    src: url(../customFonts/TimeburnerBold-peGR.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+h1{
+    font-family: genesisDukeTitleFontSolid, sans-serif;
+    background-image: linear-gradient(rgb(255, 255, 0),rgb(1, 102, 1));
+    background-clip: text;
+    color: transparent;
+    font-size: 5em;
+    text-align: center;
+}
+
+.verse,#turn,#intro{
+    font-family: TimeburnerBold,sans-serif;
+    
+}
+
+#outro{
+    font-family: genesisDukeTitleFontSolid, sans-serif;
+    font-size: 1em;
+    color:blueviolet;
+}
+
+em{
+    color: rgb(1, 102, 1);
+    font-style: normal;
+    font-family: genesisDukeTitleFontSolid, sans-serif;
+    font-size: 1.5em;
+}
+
+.fullSong{
+    align-items: center;
+    font-size: 1.5em;
+    width: 50%;
+}
+
+
+#turn,#intro{
+    word-spacing: 2em;
+    font-weight: 900;
+}
+#turn{
+    color:  rgb(1, 102, 1);
+}
+
+p{
+    margin:0px;
+}
+
+section{
+   align-content: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+img{
+    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
